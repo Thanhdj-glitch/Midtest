@@ -1,0 +1,102 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-right: 20px;
+}
+
+.btn-click {
+  margin: 0 5px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-click:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.search-input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.explore-title {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.content-p {
+  font-size: 1rem;
+  color: #bbb;
+  text-align: center;
+}
+
+.carousel {
+  margin: 20px 0;
+  position: relative;
+}
+
+.carousel-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.new-release {
+  margin-top: 20px;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.anime-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.anime-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

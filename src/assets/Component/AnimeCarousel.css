@@ -1,0 +1,20 @@
+.carousel {
+    position: relative;
+    margin: 20px 0;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-description {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}

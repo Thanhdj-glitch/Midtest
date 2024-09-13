@@ -1,0 +1,20 @@
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.anime-img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.anime-img:hover {
+    transform: scale(1.05);
+}
+
+.anime-img img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
